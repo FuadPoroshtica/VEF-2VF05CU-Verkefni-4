@@ -14,7 +14,7 @@
 
     <div class="wrapper">
         {% for i in data ["results"]: %}
-            <h4>{{i['LongName']}} {{i['shortName']}}, gengi ISKR: {{ i["value"]}}</h4>
+            <h4>{{i['longName']}} {{i['shortName']}}, gengi ISKR: {{ i["value"]}}</h4>
         {% endfor %}
     </div>
     </body>
