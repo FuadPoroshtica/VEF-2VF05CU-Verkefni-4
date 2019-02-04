@@ -3,7 +3,8 @@
 
     <style>
     body{background: #dfefef;max-width:50em;margin: 0 auto;}
-    .wrapper{display: grid;grid-template-columns: 1fr;grid-gap: 5px;}
+    .box{border:1px solid grey;border-radius: 5px;}
+    .box li{padding: 0.5em;}
     </style>
 
 
